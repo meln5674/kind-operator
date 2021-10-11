@@ -1,0 +1,15 @@
+domain: kind.meln5674
+layout:
+- go.kubebuilder.io/v3
+projectName: kind-operator
+repo: github.com/meln5674/kind-operator.git
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: kind.meln5674
+  kind: Cluster
+  path: github.com/meln5674/kind-operator.git/api/v0
+  version: v0
+version: "3"

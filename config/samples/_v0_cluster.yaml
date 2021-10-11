@@ -1,0 +1,5 @@
+apiVersion: kind.meln5674/v0
+kind: Cluster
+metadata:
+  name: cluster-sample
+spec: {}
